@@ -1,3 +1,3 @@
 class MessageSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :converstaion_id, :text, :created_at
 end
